@@ -138,4 +138,6 @@ Initialization of important systems and settings before loading the main part of
 
 **4.Dispose** - scene to clear the past scene.
 
+Each scene has its own Entry Point. The DI Container is loaded into it and the script is executed when the scene is loaded.
+
 Be sure to use **DI Container** in your project.
